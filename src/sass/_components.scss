@@ -1,0 +1,23 @@
+/////////////////////////
+// COMPONENT
+
+.component {
+    margin: 10rem auto;
+    background-color: white;
+    padding: 5rem 10rem;
+    max-width: 50rem;
+    height: 25rem;
+    text-align: center;
+
+    &__text {
+        font-size: 2.5rem;
+        margin-bottom: 3rem;
+    }
+
+    &__link {
+        text-decoration: none;
+        color: #000;
+        font-weight: 500;
+        font-size: 1rem;
+    }
+}
